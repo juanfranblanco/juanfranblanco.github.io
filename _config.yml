@@ -1,0 +1,13 @@
+# Site settings
+title: Juan Blanco: juanfranblanco@hotmail.com
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://juan.blanco.ws" # the base hostname & protocol for your site
+twitter_username: juanfranblanco
+github_username:  juanfranblanco
+
+# Build settings
+markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title/
+
+google_analytics: UA-66820700-1
