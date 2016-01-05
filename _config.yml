@@ -1,5 +1,6 @@
 # Site settings
 title: Juan Blanco
+description: Sharing my notes
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://juan.blanco.ws" # the base hostname & protocol for your site
 twitter_username: juanfranblanco
