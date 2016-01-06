@@ -4,12 +4,11 @@ title: Moving your blog from Ghost to Github and Jekyll
 date: '2016-01-06 04:49:04'
 ---
 
-Until recently I was hosting this blog in Azure using Ghost, this was using a Web App in Shared mode. Shared mode whilts cheap ~£6 a month, does not justify the cost (I don't blog that much). 
-Previously I was using Cloud Services to host many sites for £15 including custom domains.
+Until recently I was hosting this blog in Azure using Ghost, this was using a Web App in Shared mode. Shared mode is not ideal as you need to keep alive your website, and also costs some money.
 
 ### Clone this blog
 
-The simplest thing to get started is to fork this blog, "startup" branch, and use it as a template
+The simplest thing to get started is to fork this blog, "startup" branch, and use it as a template. I originally used https://github.com/martin308/martin308.github.com as a basis, but I have added disquss and some other changes.
 
 ``` bash
 
