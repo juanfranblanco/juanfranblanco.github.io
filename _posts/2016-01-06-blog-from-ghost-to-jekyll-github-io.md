@@ -12,6 +12,7 @@ Previously I was using Cloud Services to host many sites for £15 including cust
 The simplest thing to get started is to fork this blog, "startup" branch, and use it as a template
 
 ```
+
 git clone https://github.com/juanfranblanco/juanfranblanco.github.io.git -b startup --single-branch
 
 ```
@@ -24,6 +25,7 @@ git clone https://github.com/juanfranblanco/juanfranblanco.github.io.git -b star
 
 ```
 git clone https://github.com/username/username.github.io
+
 ```
 
 * Copy the "startup" files to your new repo.
@@ -36,6 +38,7 @@ git clone https://github.com/username/username.github.io
 ```
     gem install jekyll_ghost_importer
     jekyll_ghost_importer GhostBackup.json
+
 ```
 
 * Copy the content folder from your ghost site, to the root of your new repository. This contains all your images.
@@ -45,6 +48,7 @@ git clone https://github.com/username/username.github.io
 * Edit _config.yml
 
 ```
+
 # Site settings
 title: Your blog title
 description: Your blog description
@@ -61,9 +65,11 @@ permalink: /blog/:year/:month/:day/:title/
 google_analytics: UA-0000000-1
 
 disqus_shortname: disqusshortname
+
 ```
 
 * Also _data\footer.yml
 
 ### Finally CNAME
+
 * Last but not least modify the CNAME file to match your blog address, you will need to add CNAME records (or modify your existing one) to point to **username.github.io**
