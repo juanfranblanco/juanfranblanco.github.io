@@ -11,7 +11,7 @@ disqus_shortname: juanblancows
 # Build settings
 markdown: redcarpet
 highlighter: pygments
-permalink: /blog/:year/:month/:day/:title/
+permalink: /:title/
 
 gems:
   - jekyll-sitemap
