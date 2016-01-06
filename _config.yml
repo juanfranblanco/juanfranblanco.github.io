@@ -5,13 +5,13 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://juan.blanco.ws" # the base hostname & protocol for your site
 twitter_username: juanfranblanco
 github_username:  juanfranblanco
+google_analytics: UA-66820700-1
+disqus_shortname: juanblancows
 
 # Build settings
 markdown: redcarpet
 highlighter: pygments
-
 permalink: /blog/:year/:month/:day/:title/
 
-google_analytics: UA-66820700-1
-
-disqus_shortname: juanblancows
+gems:
+  - jekyll-sitemap
