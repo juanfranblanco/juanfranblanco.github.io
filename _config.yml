@@ -13,3 +13,5 @@ highlighter: pygments
 permalink: /blog/:year/:month/:day/:title/
 
 google_analytics: UA-66820700-1
+
+disqus_shortname: juanblancows
