@@ -11,9 +11,9 @@ Previously I was using Cloud Services to host many sites for £15 including cust
 
 The simplest thing to get started is to fork this blog, "startup" branch, and use it as a template
 
-```
+``` shell
 
-git clone https://github.com/juanfranblanco/juanfranblanco.github.io.git -b startup --single-branch
+    git clone https://github.com/juanfranblanco/juanfranblanco.github.io.git -b startup --single-branch
 
 ```
 
@@ -23,8 +23,9 @@ git clone https://github.com/juanfranblanco/juanfranblanco.github.io.git -b star
 * Create a new repository for the website, mine is an user/organisation website so it follows the naming format **USERNAME.github.io**. More info on [Github Pages](https://pages.github.com/)
 * Clone your new repository 
 
-```
-git clone https://github.com/username/username.github.io
+``` shell
+
+    git clone https://github.com/username/username.github.io
 
 ```
 
@@ -35,7 +36,7 @@ git clone https://github.com/username/username.github.io
 * On Ghost admin interface, go to Labs and export your blog settings and data. 
 * Install and run ruby gem **jekyll_ghost_importer** to generate your posts and drafts from your ghost backup. More info on the [jekyll ghost importer github page](https://github.com/eloyesp/jekyll_ghost_importer)
 
-```
+``` shell
     gem install jekyll_ghost_importer
     jekyll_ghost_importer GhostBackup.json
 
@@ -47,24 +48,24 @@ git clone https://github.com/username/username.github.io
 
 * Edit _config.yml
 
-```
+``` yaml
 
-# Site settings
-title: Your blog title
-description: Your blog description
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.myblog.com" # the base hostname & protocol for your site
-twitter_username: twitterusername
-github_username:  githubusername
+    # Site settings
+    title: Your blog title
+    description: Your blog description
+    baseurl: "" # the subpath of your site, e.g. /blog/
+    url: "http://www.myblog.com" # the base hostname & protocol for your site
+    twitter_username: twitterusername
+    github_username:  githubusername
 
-# Build settings
-markdown: kramdown
+    # Build settings
+    markdown: kramdown
 
-permalink: /blog/:year/:month/:day/:title/
+    permalink: /blog/:year/:month/:day/:title/
 
-google_analytics: UA-0000000-1
+    google_analytics: UA-0000000-1
 
-disqus_shortname: disqusshortname
+    disqus_shortname: disqusshortname
 
 ```
 
