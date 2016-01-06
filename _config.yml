@@ -7,7 +7,8 @@ twitter_username: juanfranblanco
 github_username:  juanfranblanco
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+highlighter: pygments
 
 permalink: /blog/:year/:month/:day/:title/
 
