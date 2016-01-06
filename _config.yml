@@ -1,14 +1,16 @@
 # Site settings
-title: Juan Blanco
-description: Sharing my notes
+title: Your blog title
+description: Your blog description
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://juan.blanco.ws" # the base hostname & protocol for your site
-twitter_username: juanfranblanco
-github_username:  juanfranblanco
+url: "http://www.myblog.com" # the base hostname & protocol for your site
+twitter_username: twitterusername
+github_username:  githubusername
 
 # Build settings
 markdown: kramdown
 
 permalink: /blog/:year/:month/:day/:title/
 
-google_analytics: UA-66820700-1
+google_analytics: UA-0000000-1
+
+disqus_shortname: disqusshortname
