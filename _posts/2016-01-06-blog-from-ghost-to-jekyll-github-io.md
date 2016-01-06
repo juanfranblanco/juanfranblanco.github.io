@@ -11,7 +11,7 @@ Previously I was using Cloud Services to host many sites for £15 including cust
 
 The simplest thing to get started is to fork this blog, "startup" branch, and use it as a template
 
-``` shell
+``` bash
 
     git clone https://github.com/juanfranblanco/juanfranblanco.github.io.git -b startup --single-branch
 
@@ -23,7 +23,7 @@ The simplest thing to get started is to fork this blog, "startup" branch, and us
 * Create a new repository for the website, mine is an user/organisation website so it follows the naming format **USERNAME.github.io**. More info on [Github Pages](https://pages.github.com/)
 * Clone your new repository 
 
-``` shell
+``` bash
 
     git clone https://github.com/username/username.github.io
 
@@ -36,7 +36,7 @@ The simplest thing to get started is to fork this blog, "startup" branch, and us
 * On Ghost admin interface, go to Labs and export your blog settings and data. 
 * Install and run ruby gem **jekyll_ghost_importer** to generate your posts and drafts from your ghost backup. More info on the [jekyll ghost importer github page](https://github.com/eloyesp/jekyll_ghost_importer)
 
-``` shell
+``` bash
     gem install jekyll_ghost_importer
     jekyll_ghost_importer GhostBackup.json
 
