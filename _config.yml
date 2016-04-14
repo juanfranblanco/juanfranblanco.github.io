@@ -10,7 +10,7 @@ disqus_shortname: juanblancows
 
 # Build settings
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 permalink: /:title/
 
 gems:
